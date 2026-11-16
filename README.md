@@ -112,10 +112,6 @@ Databricks-Analytics-Project/
 └── README.md
 ```
 
-## Dashboard Preview
-
-![US Emissions Dashboard](screenshots/databricks_emissions_project.png)
-
 ## Repository Contents
 
 - **dashboards/** – Contains the exported Databricks AI/BI dashboard configuration in JSON format.

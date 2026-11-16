@@ -92,20 +92,37 @@ The analysis uses the following fields:
 ## Project Structure
 
 ```text
-US-Emissions-Analysis/
+Databricks-Analytics-Project/
+│
+├── dashboards/
+│   └── US Emissions 2023.lvdash.json
+│
+├── queries/
+│   ├── Emission_location_data.sql
+│   ├── Emission_per_person.sql
+│   ├── Emission_per_state.sql
+│   ├── top_10_emission_percentage.sql
+│   └── top_10_county_emissions.sql
+│
+├── screenshots/
+│   └── databricks_emissions_project.png
 │
 ├── Emissions_Data_2023.csv
-├── US Emissions 2023.lvdash.json
-├── databricks_emissions_project.png
-│
-├── Emission_location_data.sql
-├── Emission_per_person.sql
-├── Emission_per_state.sql
-├── top_10_emission_percentage.sql
-├── top_10_county_emissions.sql
 │
 └── README.md
 ```
+
+## Dashboard Preview
+
+![US Emissions Dashboard](screenshots/databricks_emissions_project.png)
+
+## Repository Contents
+
+- **dashboards/** – Contains the exported Databricks AI/BI dashboard configuration in JSON format.
+- **queries/** – Contains the SQL queries used for emissions analysis and dashboard visualizations.
+- **screenshots/** – Contains a preview of the completed emissions dashboard.
+- **Emissions_Data_2023.csv** – Source dataset used for the analysis.
+- **README.md** – Project documentation, methodology, and key findings.
 
 ## How to Use
 

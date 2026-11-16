@@ -10,7 +10,7 @@ The project uses a 2023 emissions dataset attributed to the **Environmental Prot
 
 ## Dashboard Preview
 
-![United States Emissions Dashboard](databricks_emissions_project.png)
+![United States Emissions Dashboard](screenshots/databricks_emissions_project.png)
 
 ## Technologies Used
 
